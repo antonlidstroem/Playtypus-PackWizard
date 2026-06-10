@@ -1,0 +1,20 @@
+{
+  "name": "packwizard",
+  "version": "2.0.0",
+  "private": true,
+  "description": "PackWizard — visuellt verktyg för att skapa Playtypus-pack",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "jszip": "^3.10.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.1"
+  }
+}
