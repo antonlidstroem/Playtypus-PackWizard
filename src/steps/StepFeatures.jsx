@@ -184,6 +184,7 @@ const FEATURE_GROUPS = [
       },
     ],
   },
+];
 
 function Toggle({ on, onClick, disabled }) {
   return (
@@ -205,6 +206,7 @@ function Toggle({ on, onClick, disabled }) {
 export default function StepFeatures({ ctx }) {
   const { state, updateFeatures } = ctx
   const { features } = state
+
 
   const toggle = (key) => {
     const cur = features[key]
